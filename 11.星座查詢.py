@@ -1,0 +1,65 @@
+date=input("請輸入月及日為:").split()
+a=list(map(int,date))
+for i in range(len(a)):
+    x=a[0]
+    y=a[1]
+if(x==1):
+    if(y>20):
+        print("星座為:水瓶座")
+    else:
+        print("星座為:摩羯座")
+elif(x==2):
+    if(y>18):
+        print("星座為:雙魚座")
+    else:
+        print("星座為:水瓶座")
+elif(x==3):
+    if(y>20):
+        print("星座為:牡羊座")
+    else:
+        print("星座為:雙魚座")
+elif(x==4):
+    if(y>20):
+        print("星座為:金牛座")
+    else:
+        print("星座為:牡羊座")
+elif(x==5):
+    if(y>21):
+        print("星座為:雙子座")
+    else:
+        print("星座為:金牛座")
+elif(x==6):
+    if(y>21):
+        print("星座為:巨蟹座")
+    else:
+        print("星座為:雙子座")
+elif(x==7):
+    if(y>22):
+        print("星座為:獅子座")
+    else:
+        print("星座為:巨蟹座")
+elif(x==8):
+    if(y>23):
+        print("星座為:處女座")
+    else:
+        print("星座為:獅子座")
+elif(x==9):
+    if(y>23):
+        print("星座為:天秤座")
+    else:
+        print("星座為:處女座")
+elif(x==10):
+    if(y>23):
+        print("星座為:天蠍座")
+    else:
+        print("星座為:天秤座")
+elif(x==11):
+    if(y>22):
+        print("星座為:射手座")
+    else:
+        print("星座為:天蠍座")
+elif(x==12):
+    if(y>21):
+        print("星座為:摩羯座")
+    else:
+        print("星座為:射手座")
